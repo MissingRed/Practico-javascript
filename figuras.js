@@ -114,3 +114,14 @@ function calcularPerimetroTriangulo() {
 
   alert(perTrian);
 }
+
+function calcularAreaTriangulo() {
+  const inputAltura = document.getElementById("inputAlturaTriangulo");
+  const inputBase = document.getElementById("inputBaseTriangulo");
+
+  const valueAltura = inputAltura.value;
+  const valueBase = inputBase.value;
+  const areaTrian = areaTriangulo(valueBase, valueAltura);
+
+  alert(areaTrian);
+}
