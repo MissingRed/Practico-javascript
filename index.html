@@ -7,6 +7,46 @@
     <title>Practico JS</title>
   </head>
   <body>
+    <header><h1>Figuras geométricas</h1></header>
+    <section>
+      <h2>Calcula el área y perímetro de un cuadrado</h2>
+      <form>
+        <label for="inputCuadrado"
+          >Escribe cuánto mide cada lado de tu cuadrado:
+        </label>
+        <input type="number" id="inputCuadrado" />
+        <button type="button" onclick="calcularPerimetroCuadrado()">
+          Calular el perimetro
+        </button>
+        <button type="button" onclick="calcularAreaCuadrado()">
+          Calular el área
+        </button>
+      </form>
+    </section>
+    <section>
+      <h2>Calcula el área y perímetro de un triángulo</h2>
+      <form>
+        <label for="inputTriangulo1"
+          >Escribe cuánto mide lado 1 del triángulo:
+        </label>
+        <input type="number" id="inputTriangulo1" />
+        <label for="inputTriangulo1"
+          >Escribe cuánto mide lado 2 del triángulo:
+        </label>
+        <input type="number" id="inputTriangulo2" />
+        <label for="inputTriangulo1"
+          >Escribe cuánto mide la base del triángulo:
+        </label>
+        <input type="number" id="inputBaseTriangulo" />
+
+        <button type="button" onclick="calcularPerimetroTriangulo()">
+          Calular el perimetro
+        </button>
+        <button type="button" onclick="calcularAreaTriangulo()">
+          Calular el área
+        </button>
+      </form>
+    </section>
     <script src="./figuras.js"></script>
   </body>
 </html>
